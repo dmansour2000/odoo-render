@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    <div style="padding:3.5rem 1.5rem !important; background-color:#ffffff !important">
+        <div class="container">
+            <!-- HERO -->
+            <div class="row">
+                <div class="col-lg-12 d-flex flex-column justify-content-center"
+                     style="text-align:center; padding:1rem !important">
+                    <h1 class="text-center" style="color:#7C7BAD !important; font-size:4rem !important">
+                        Customer Churn Prediction</h1>
+                                        <p class="text-center"
+                                           style="color:#212529 !important; font-size:1.5rem !important; letter-spacing:5px !important">
+                                            Customer churn prediction module for Odoo. This solution analyzes customer behavior patterns to identify which customers are at risk of leaving your business before they actually do.
+                                        </p>
+                    <br/>
+                    
+                </div>
+            </div>
+            <!-- END OF HERO -->
+            <!-- OVERVIEW -->
+            <div class="row">
+                <div class="col-lg-12 d-flex flex-column"
+                     style="text-align:center; padding:2.5rem 1rem !important">
+                    <h2 style="color:#212529 !important">Key Features</h2>
+                    <hr style="border:3px solid #7C7BAD !important; background-color:#00438B !important; width:80px !important; margin-bottom:2rem !important">
+                    <p class="text-left" style="color:#212529 !important; font-size:1.5rem !important">
+                        <ul style="text-align:left;font-size: 14pt;">
+                            <li>
+                                <b>Intelligent Churn Detection:</b> Uses machine learning to identify patterns in customer behavior that indicate potential churn.
+                            </li>
+                            <li>
+                                <b>Multi-Factor Analysis:</b> Considers numerous factors including:
+                                <ul>
+                                    <li>Purchase frequency and recency</li>
+                                    <li>Order values and total spend</li>
+                                    <li>Customer lifetime</li>
+                                    <li>Payment patterns</li>
+                                    <li>Account activity</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Visual Indicators:</b> Adds warning badges to at-risk customers in list and kanban views
+                            </li>
+                            <li>
+                                <b>Retention Button:</b> Adds a direct "Retention Required" button to quickly create opportunities for at-risk customers
+                            </li>
+                            <li>
+                                <b>Automated Updates:</b> Daily scheduled task refreshes churn predictions automatically
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12 d-flex flex-column"
+                     style="text-align:center; padding:2.5rem 1rem !important">
+                    <h2 style="color:#212529 !important">Technical Details</h2>
+                    <hr style="border:3px solid #7C7BAD !important; background-color:#00438B !important; width:80px !important; margin-bottom:2rem !important">
+                    <p class="text-left" style="color:#212529 !important; font-size:1.5rem !important">
+                        <ul style="text-align:left;font-size: 14pt;">
+                            <li>
+                                Uses Random Forest classifier class
+                            </li>
+                            <li>
+                                Stores model data efficiently using binary attachments
+                            </li>
+                            <li>
+                                Customers who ordered before but not in the last 6 months are considered churned.
+                            </li>
+                            <li>
+                                To process the train model must be at least 100 active records (customers & orders).
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 d-flex flex-column"
+                     style="text-align:center; padding:2.5rem 1rem !important">
+                    <h2 style="color:#212529 !important">Installation</h2>
+                    <hr style="border:3px solid #7C7BAD !important; background-color:#00438B !important; width:80px !important; margin-bottom:2rem !important">
+                    <p class="text-left" style="color:#212529 !important; font-size:1.5rem !important">
+                        <ul style="text-align:left;font-size: 14pt;">
+                            <li>
+                                Install the required Python dependencies: <b>pip install pandas numpy scikit-learn</b>
+                            </li>
+                            <li>
+                                Install the module through Odoo's Apps menu "customer_churn_prediction"
+                            </li>
+                            <li>
+                                Go to CRM > Configuration > Churn Prediction Models and click "Train Model"
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+           
+    </div>
+</div>
+</div>
+</body>
+</html>
+

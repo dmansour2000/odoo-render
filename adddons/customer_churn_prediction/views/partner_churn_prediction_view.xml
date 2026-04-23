@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Churn Prediction Model Form View -->
+    <record id="view_res_partner_churn_model_form" model="ir.ui.view">
+        <field name="name">res.partner.churn.model.form</field>
+        <field name="model">res.partner.churn.model</field>
+        <field name="arch" type="xml">
+            <form string="Churn Prediction Model">
+                <header>
+                    <button name="train_model" string="Train Model" type="object" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <div class="alert alert-danger" role="alert">
+
+                            <h4>⚠️ Please Read this before Train the Model</h4>
+                        <p>Training this model may require significant server resources (CPU/RAM) depending on your data size. Larger datasets will increase processing time and server load.</p>
+<h4>✅ Recommendation:</h4>
+<p>
+<ul>
+    <li>For faster results, reduce data volume or run during off-peak hours.</li>
+    <li>Ensure your server has adequate resources before proceeding.</li>
+    <li>This may impact your billing</li>
+</ul>
+</p>
+
+                    </div>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Model Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="active"/>
+                            <field name="last_trained" readonly="1" force_save="1"/>
+                            <field name="accuracy" widget="percentage" readonly="1" force_save="1"/>
+                            <field name="churn_threshold" widget="percentage" readonly="1" force_save="1"/>
+                        </group>
+                        <group>
+                            <field name="model_data" filename="name" invisible="1"/>
+                            <field name="feature_list" groups="base.group_no_one" readonly="1" force_save="1" widget="text"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Churn Prediction Model Tree View -->
+    <record id="view_res_partner_churn_model_tree" model="ir.ui.view">
+        <field name="name">res.partner.churn.model.tree</field>
+        <field name="model">res.partner.churn.model</field>
+        <field name="arch" type="xml">
+            <tree string="Churn Prediction Models"
+            decoration-muted="active==False">
+                <field name="name"/>
+                <field name="accuracy" widget="percentage"/>
+                <field name="churn_threshold" widget="percentage"/>
+                <field name="last_trained"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Churn Prediction Model Action -->
+    <record id="action_res_partner_churn_model" model="ir.actions.act_window">
+        <field name="name">Churn Prediction Models</field>
+        <field name="res_model">res.partner.churn.model</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+   <record id="view_res_partner_churn_model_filter" model="ir.ui.view">
+        <field name="name">res.partner.churn.model.filter</field>
+        <field name="model">res.partner.churn.model</field>
+        <field name="priority" eval="1"/>
+        <field name="arch" type="xml">
+            <search string="Churn Prediction Models">
+<!--                <filter string="Active" name="active" domain="[('active', '=', True)]"/>-->
+                <filter string="Inactive" name="inactive" domain="[('active', '=', False)]"/>
+                <separator/>
+            </search>
+        </field>
+    </record>
+</odoo>

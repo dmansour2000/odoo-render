@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Add Churn Risk to Partner Form View -->
+    <record id="view_partner_form_inherit_churn" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit.churn</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="%(crm.crm_lead_action_pipeline)d"
+                        context="{'search_default_partner_id': active_id, 'default_partner_id': active_id}"
+                        type="action"
+                        class="oe_stat_button"
+                        icon="fa-life-ring"
+                        attrs="{'invisible': [('is_at_risk', '=', False)]}"
+                        groups="sales_team.group_sale_salesman">
+                    <div class="o_field_widget o_stat_info">
+                        <span class="o_stat_text text-danger">Retention<br/>Required</span>
+                    </div>
+                </button>
+            </xpath>
+            <page name="sales_purchases" position="inside">
+                <field name="customer_rank" invisible="1"/>
+                <group name="churn" string="Churn Analysis" attrs="{'invisible': [('customer_rank', '=', 0)]}">
+                    <field name="churn_risk" readonly="1" widget="percentage"/>
+                    <field name="churn_risk_date" readonly="1"/>
+                    <field name="is_at_risk" invisible="1"/>
+                </group>
+            </page>
+        </field>
+    </record>
+
+    <!-- Add Churn Risk to Partner Kanban View -->
+    <record id="res_partner_kanban_view_inherit_churn" model="ir.ui.view">
+        <field name="name">res.partner.kanban.inherit.churn</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.res_partner_kanban_view"/>
+        <field name="arch" type="xml">
+<!--            <field name="mobile" position="after">-->
+<!--                <field name="is_at_risk" />-->
+<!--            </field>-->
+            <xpath expr="//kanban/templates" position="before">
+                <field name="is_at_risk" />
+            </xpath>
+            <xpath expr="//div[hasclass('oe_kanban_details')]" position="inside">
+                <div t-if="record.is_at_risk.raw_value" class="mt8">
+                    <span class="badge badge-danger">
+                        <i class="fa fa-exclamation-triangle"/> Churn Risk: <field name="churn_risk" widget="percentage"/>
+                    </span>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Add Churn Risk to Partner Tree View -->
+    <record id="view_partner_tree_inherit_churn" model="ir.ui.view">
+        <field name="name">res.partner.tree.inherit.churn</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+            <field name="user_id" position="after">
+                <field name="churn_risk" widget="percentage" optional="show"/>
+                <field name="is_at_risk" widget="boolean_toggle" optional="show"/>
+            </field>
+        </field>
+    </record>
+
+    <!-- Customer Churn Risk Report -->
+<!--    <record id="view_partner_churn_risk_pivot" model="ir.ui.view">-->
+<!--        <field name="name">res.partner.churn.risk.pivot</field>-->
+<!--        <field name="model">res.partner</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <pivot string="Customer Churn Risk Analysis">-->
+<!--                <field name="country_id" type="row"/>-->
+<!--&lt;!&ndash;                <field name="industry_id" type="row"/>&ndash;&gt;-->
+<!--                <field name="user_id" type="col"/>-->
+<!--                <field name="churn_risk" type="measure"/>-->
+<!--&lt;!&ndash;                <field name="is_at_risk" type="measure"/>&ndash;&gt;-->
+<!--            </pivot>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    <record id="view_partner_churn_risk_graph" model="ir.ui.view">-->
+<!--        <field name="name">res.partner.churn.risk.graph</field>-->
+<!--        <field name="model">res.partner</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <graph string="Customer Churn Risk Analysis">-->
+<!--                <field name="user_id"/>-->
+<!--                <field name="churn_risk" type="measure"/>-->
+<!--            </graph>-->
+<!--        </field>-->
+<!--    </record>-->
+
+    <!-- Churn Risk Report Action -->
+<!--    <record id="action_partner_churn_risk_report" model="ir.actions.act_window">-->
+<!--        <field name="name">Customer Churn Risk</field>-->
+<!--        <field name="res_model">res.partner</field>-->
+<!--        <field name="view_mode">pivot,graph</field>-->
+<!--        <field name="domain">[('customer_rank', '>', 0)]</field>-->
+<!--        <field name="context">{}</field>-->
+<!--        <field name="help">Analyze your customers by churn risk.</field>-->
+<!--    </record>-->
+
+    <!-- Add menu entry for Churn Prediction -->
+    <menuitem id="menu_res_partner_churn_model"
+        name="Churn Prediction Models"
+        parent="crm.crm_menu_config"
+        action="action_res_partner_churn_model"
+        sequence="26"/>
+
+    <!-- Add menu entry for Churn Risk Report -->
+<!--    <menuitem id="menu_partner_churn_risk_report"-->
+<!--        name="Customer Churn Analysis"-->
+<!--        parent="crm.crm_menu_report"-->
+<!--        action="action_partner_churn_risk_report"-->
+<!--        sequence="5"/>-->
+
+
+
+</odoo>

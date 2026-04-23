@@ -1,0 +1,201 @@
+id,name,is_company,type,industry,street,street2,city,state_code,zip,country_code,country_name,email,phone,mobile,website,customer_rank,supplier_rank,tags,external_id
+1,Shah PLC,True,Company,Retail,6787 Barnes Overpass Suite 791,,Debbieville,,13440,ES,Spain,chad25@taylor.org,+1-790-769-8434,(699)671-6170,http://www.wilcox.net/,2,0,"['Manufacturing', 'Strategic Account', 'SMB']",company_1
+2,Collins-Brown,True,Company,Food & Beverage,018 Blake Prairie,,Rhondashire,,67268,UK,United Kingdom,joanndouglas@rivera.com,601-615-2978,+1-457-625-0324x774,https://www.wiggins.com/,10,0,[],company_2
+3,Edwards PLC,True,Company,Engineering,4202 Cameron Land Apt. 129,,Lake Mary,,95963,FR,France,ashleykidd@lopez.com,810-789-9133x10999,,http://www.daniels-smith.com/,8,0,"['Strategic Account', 'Hot Lead', 'Public Sector']",company_3
+4,Ochoa-Erickson,True,Company,Shipping,870 Erin Square,,South Joel,,76352,BE,Belgium,samantha76@jones.com,+1-664-203-7083x985,+1-418-304-6084x886,,7,0,[],company_4
+5,"Smith, Woods and Shah",True,Company,Communications,1828 Perez Road Suite 623,Apt. 985,New Johnstad,,51604,BE,Belgium,amiller@garza-robles.info,287-442-5502x258,975.754.1486x59233,,2,0,['Strategic Account'],company_5
+6,Christopher Reynolds,False,Individual,,1791 Erika Trail Apt. 233,,Torresport,,35065,IT,Italy,timothybailey@example.net,247.393.9095,(698)954-1558x569,,2,0,[],company_6
+7,Salinas Ltd,True,Company,Agriculture,50242 Swanson Avenue Suite 534,,Barajasbury,,13678,ES,Spain,thorntonmercedes@solomon.com,6849697933,,,0,0,"['SMB', 'Healthcare', 'Manufacturing']",company_7
+8,"Cruz, Romero and Oneal",True,Company,Engineering,5131 Jordan Trail Apt. 073,,Rogersfort,,38320,BE,Belgium,ygreer@tyler.info,+1-223-878-8396,,http://www.silva.com/,1,0,"['Retail', 'Existing Customer', 'Enterprise']",company_8
+9,Anthony Huerta,False,Individual,,94197 Trevor Streets Suite 672,,West Stephaniemouth,,96997,UK,United Kingdom,kfrancis@example.net,667-976-1699x1619,001-704-867-0457x748,,4,5,"['Public Sector', 'High Priority', 'Existing Customer']",company_9
+10,Nicholas Edwards,False,Individual,,4685 Samantha Tunnel,Suite 878,Gainesberg,,77799,NL,Netherlands,brittanyreyes@example.net,001-688-235-6442,9242444332,,3,0,"['Strategic Account', 'Public Sector', 'Hot Lead']",company_10
+11,Aaron Benson,False,Individual,,39059 William Forge,Suite 664,Lake Alexisbury,IA,09202,US,United States,cnelson@example.com,(536)707-1514x9772,(558)392-2059x2007,,3,0,"['Existing Customer', 'High Priority', 'Education']",company_11
+12,Schmidt PLC,True,Company,Recreation,1497 Perez Radial,,West Davidport,,77151,BE,Belgium,poolegary@williams.com,201-361-9711x327,6948542604,,8,0,"['Healthcare', 'Hot Lead', 'SMB']",company_12
+13,"Cook, Wilson and George",True,Company,Energy,86504 Andrew Springs Apt. 283,,Sarafort,OH,74753,US,United States,megan58@lopez.com,659.451.2449x9784,4628106418,,2,0,[],company_13
+14,Joshua Eaton,False,Individual,,527 Kelly View Apt. 295,,Anthonyville,,93534,ES,Spain,gregoryjared@example.net,+1-408-525-7180,(615)930-2734,,9,0,['Education'],company_14
+15,Brown-Hernandez,True,Company,Recreation,80566 Phillips Stravenue,Apt. 132,East Alyssa,,99653,BE,Belgium,michaelwilliams@cunningham.org,+1-771-706-2294,779.741.4653x407,http://www.haynes.org/,4,0,[],company_15
+16,Clark and Sons,True,Company,Media,3707 Smith Fork,,Port Allenfort,SK,75147,CA,Canada,hornshannon@owens-owen.net,538.373.0606,3907872560,http://pacheco-fisher.net/,1,0,['Enterprise'],company_16
+17,Dr. Diane Avila MD,False,Individual,,6077 Bailey Squares,,South Caroline,,92742,DE,Germany,mfernandez@example.org,+1-902-740-6136x777,8837329001,,3,5,['SMB'],company_17
+18,Christina Taylor,False,Individual,,8210 Willis Corner Apt. 109,,Danielleburgh,,22392,UK,United Kingdom,bhill@example.org,232-952-3999,709.368.0569,,4,4,"['Hot Lead', 'SMB', 'High Priority']",company_18
+19,Samantha Carter,False,Individual,,775 Janet Walk,Apt. 524,Jamesfurt,,52290,UK,United Kingdom,andersonmichelle@example.net,(510)207-4096,659-731-9412x0918,,9,0,"['Manufacturing', 'High Priority', 'Strategic Account']",company_19
+20,Klein LLC,True,Company,Technology,870 Amber Extensions Suite 490,,Rhondatown,,91342,IT,Italy,aliciatyler@scott.com,001-930-530-5983x382,632.339.5000,,9,0,['Education'],company_20
+21,"Turner, Odonnell and Carter",True,Company,Insurance,039 Curtis Haven Suite 976,Apt. 657,Stewartfort,,78362,ES,Spain,pmartinez@stewart.net,+1-416-701-5470x322,(865)781-2550x45986,https://davis-reese.biz/,9,0,[],company_21
+22,Michele Mcintyre,False,Individual,,843 May Roads Suite 305,Suite 248,Loveland,,96501,DE,Germany,ryanjohnson@example.com,929.332.0191x00082,001-834-985-2182,,1,0,[],company_22
+23,Melissa Reynolds,False,Individual,,273 Bell Mews,Suite 663,Veronicaburgh,NC,68943,US,United States,melissa38@example.com,533-497-7069,,,10,0,"['Strategic Account', 'Retail']",company_23
+24,Ronald Clayton,False,Individual,,590 Hoffman Shore,,East Shane,,81346,FR,France,josephmariah@example.com,756.657.5995,3633976780,,0,1,[],company_24
+25,Miller-Cantrell,True,Company,Recreation,67700 James Crest Apt. 655,Suite 451,Moodyport,,52698,IT,Italy,ybennett@gutierrez.com,(922)808-6414,,http://www.heath.biz/,1,0,"['Existing Customer', 'SMB', 'Hot Lead']",company_25
+26,"Johnson, Jenkins and Hall",True,Company,Agriculture,521 Flowers Island Apt. 476,,New Nicole,,96492,NL,Netherlands,derek17@ramos.com,306.278.3849,7946703145,,7,0,[],company_26
+27,Compton PLC,True,Company,Apparel,735 Sandra Centers,,North Richardton,RI,46771,US,United States,rachel29@lewis.biz,001-688-952-6806x646,825.990.6463,https://james.net/,1,5,[],company_27
+28,Derek Bowman,False,Individual,,1817 Dennis Fords Apt. 780,,North Nathan,,20696,DE,Germany,danphillips@example.org,2968964191,396.903.5666,,6,5,"['Hot Lead', 'Education', 'Public Sector']",company_28
+29,Scott-Garcia,True,Company,Construction,7726 Frost Mill Suite 932,,South Lisashire,ON,88305,CA,Canada,wayne36@hernandez-hernandez.org,+1-686-571-6582x517,849.217.0464,,0,3,[],company_29
+30,Esparza LLC,True,Company,Engineering,60429 Johnson Key,Apt. 004,Troyville,,85060,FR,France,davidgaines@mitchell.net,(729)376-0393x24613,689-507-6720x23954,http://www.hood.com/,3,0,"['Education', 'High Priority']",company_30
+31,Emily Hooper,False,Individual,,1423 Andrew Port,,Walterchester,,29108,IT,Italy,ashleyhaas@example.net,(922)253-9140,,,3,0,"['Hot Lead', 'Public Sector']",company_31
+32,Gavin Jones,False,Individual,,11582 Raymond Well,,New Michaelfort,,62648,FR,France,wilkersonwanda@example.net,639.897.4383,503.528.9503,,0,0,"['SMB', 'Strategic Account', 'Public Sector']",company_32
+33,Brown Ltd,True,Company,Banking,13304 Katherine Pike Suite 626,Apt. 025,Jonathanmouth,,13617,NL,Netherlands,michaelgray@chambers-owens.net,001-909-895-3183x20623,(802)555-2154x1285,https://sutton.com/,0,0,[],company_33
+34,Ritter Group,True,Company,Media,1282 Newton Rue,,East Valerie,BC,11829,CA,Canada,juliemurphy@thomas.com,851-504-1433x78468,,,2,5,['Public Sector'],company_34
+35,"Hernandez, Woods and Ellison",True,Company,Engineering,5930 Christopher Mews,,Lucasberg,ME,57601,US,United States,murrayeugene@french.com,001-814-686-8982x17832,487.245.5172x26952,https://www.taylor.com/,9,0,[],company_35
+36,Joseph Jones,False,Individual,,1934 Roberto Burgs Suite 724,,Russoton,,05219,FR,France,michelle16@example.org,(453)217-6557x74133,754.986.6279,,6,1,[],company_36
+37,Kirsten Gomez,False,Individual,,232 Tonya Rest,,Lake Nathanberg,,48907,DE,Germany,perrystacy@example.net,+1-383-549-3840x703,,,2,0,[],company_37
+38,Tina Wong,False,Individual,,94152 Mark Corners,,West Jeremy,,79479,BE,Belgium,elizabeth88@example.org,273.326.7144x9574,,,4,0,['High Priority'],company_38
+39,Anthony Ltd,True,Company,Transportation,66024 Noble Lakes,Suite 210,Lake Michelle,,79358,IT,Italy,garymartin@clark.info,+1-633-871-7992x713,+1-265-374-1643x068,http://vega.com/,3,0,['Public Sector'],company_39
+40,"Bullock, Woods and Powell",True,Company,Education,656 Pham Junctions Apt. 614,,Palmerhaven,,64556,NL,Netherlands,andrea83@cantrell-allen.net,(658)352-8584,419-380-0078x565,http://www.fox-morrison.com/,10,0,['Existing Customer'],company_40
+41,Petersen-Perry,True,Company,Government,7930 Chavez Bypass,,Lake Stacie,,90057,IT,Italy,djohnson@moore.com,734.550.5366x10903,678.331.1973x63264,,1,0,[],company_41
+42,Griffin Ltd,True,Company,Construction,880 Karen Divide,Apt. 592,West Sharonfort,,23222,ES,Spain,andrew12@molina.info,+1-921-487-1614x371,671-219-4585x05661,,1,0,[],company_42
+43,"Wallace, Gill and Vargas",True,Company,Not For Profit,8469 Rebecca Rapid Apt. 893,,Andersonside,,37884,DE,Germany,stevensondebra@wallace.com,(636)683-2043x2640,,http://morrison-callahan.com/,6,2,[],company_43
+44,Michelle Thomas,False,Individual,,5234 Wells Crossroad,Apt. 002,Port Marco,,91223,ES,Spain,wlopez@example.net,+1-492-539-6215x1207,,,10,0,"['Strategic Account', 'Manufacturing', 'Hot Lead']",company_44
+45,Rodney Rivera,False,Individual,,92954 Larry Junctions Apt. 299,,Williamtown,NJ,48516,US,United States,upatton@example.net,8325870701,720.900.0097,,3,0,[],company_45
+46,Bailey-Taylor,True,Company,Not For Profit,9925 Carter Branch Suite 884,Apt. 953,Allenchester,,81958,FR,France,xpittman@campbell-gonzales.com,314.662.6699,,https://www.gonzalez-chambers.org/,10,0,"['Public Sector', 'SMB']",company_46
+47,"Williams, Martinez and Acevedo",True,Company,Energy,42910 Erik Point,,Port Julie,,01951,UK,United Kingdom,schmittedward@walls.info,001-263-377-4513x40464,+1-685-603-7325x3373,http://le.org/,2,0,[],company_47
+48,Stephen Chavez,False,Individual,,77697 Brooke Island Suite 491,Suite 621,Port Bryanshire,,24300,BE,Belgium,zharrison@example.com,421.523.2851x81286,+1-422-546-0674x8287,,10,0,"['Public Sector', 'Strategic Account', 'Existing Customer']",company_48
+49,Kevin Hawkins,False,Individual,,1733 Soto Cape Apt. 520,,Port Kaitlynhaven,SA,97302,AU,Australia,bmendoza@example.org,894-439-6934x43386,,,0,4,"['Existing Customer', 'High Priority', 'Manufacturing']",company_49
+50,Contreras-Haas,True,Company,Technology,2343 Lawson Crossroad Apt. 708,Suite 655,Donaldshire,WA,16319,AU,Australia,wilsonkathleen@white.info,(304)518-4758,+1-822-483-9774x2878,https://www.hester.org/,1,0,['High Priority'],company_50
+51,Ayala-Owens,True,Company,Finance,14955 Campbell Field,Apt. 972,East Stephanie,,42579,UK,United Kingdom,wolfejustin@horton.com,001-803-489-0720x88362,001-730-806-0531x666,,3,0,"['High Priority', 'Enterprise']",company_51
+52,"Clark, Patrick and Harris",True,Company,Manufacturing,2126 Hall Fort,,Tracyfort,PE,31526,CA,Canada,wesley25@dalton.info,989.530.9714x52987,,,3,3,"['High Priority', 'Enterprise']",company_52
+53,Fox-Peters,True,Company,Utilities,41348 Daniel Ports Apt. 451,,Port Cameron,NL,69238,CA,Canada,mray@franklin-owens.info,835.925.4400x72046,277-394-2593,http://www.webster.info/,6,0,[],company_53
+54,Destiny Boyle,False,Individual,,6791 Howell Island Suite 780,Suite 380,East Rachel,,89549,ES,Spain,wrightstephanie@example.org,741.539.3844x3832,(359)710-6872x99896,,0,2,[],company_54
+55,Toni Clements,False,Individual,,4317 Kerr River,,Port Selenatown,,15544,FR,France,nhanson@example.com,977.632.7481,,,2,4,"['Enterprise', 'Manufacturing']",company_55
+56,Susan Faulkner,False,Individual,,448 West Brook Apt. 765,Apt. 162,Galvanland,,43566,UK,United Kingdom,ggordon@example.net,580.724.0499,,,10,0,"['Hot Lead', 'Public Sector']",company_56
+57,Henderson Group,True,Company,Agriculture,938 Kevin Road Apt. 942,,Brandonton,ME,69530,US,United States,rodriguezanna@williams-stewart.com,627-438-0165x070,936-887-1437,https://cruz.org/,5,3,"['Strategic Account', 'Retail']",company_57
+58,Oliver-Miller,True,Company,Healthcare,19449 Smith Expressway Apt. 883,Suite 222,Cardenastown,,28950,IT,Italy,kjensen@hudson-andrade.com,+1-840-398-1897x972,,,5,0,"['Retail', 'High Priority']",company_58
+59,Hoffman Group,True,Company,Energy,46348 Miles Forges,,Maryport,,73262,ES,Spain,cannonjessica@williams.net,(207)776-0005x847,452-942-8976,https://www.oliver-riddle.com/,10,0,[],company_59
+60,David Spencer,False,Individual,,106 Barr Center Suite 106,,East Johnfort,,79815,NL,Netherlands,zgibson@example.com,809.447.0816x4428,(891)544-8173x9392,,8,0,[],company_60
+61,Luna Ltd,True,Company,Construction,8973 Williams Circles,,South Stephanie,QLD,16640,AU,Australia,qoneill@ayers.org,267-204-0434,001-906-794-9716x827,http://morton.net/,1,0,[],company_61
+62,"Moreno, Jackson and Kelly",True,Company,Technology,762 Jonathan Groves,Suite 568,Harriston,,08497,UK,United Kingdom,vspencer@johnson-johnson.com,547-614-7048,+1-837-512-9294x2186,http://garcia-gray.biz/,0,0,[],company_62
+63,Reynolds-Yu,True,Company,Not For Profit,166 Boyd Lake Apt. 701,,West Joshua,QLD,35693,AU,Australia,millermatthew@rogers-morales.com,+1-461-636-0817x26763,,,0,0,[],company_63
+64,Pope and Sons,True,Company,Communications,7986 Jason Viaduct,,Port Allisonfurt,,81146,ES,Spain,allison66@williams.biz,(674)599-5660,(887)992-5821,http://www.shepherd.com/,6,0,"['SMB', 'Strategic Account']",company_64
+65,Jay Stevens,False,Individual,,660 Anthony Crossroad,,Portershire,,05269,UK,United Kingdom,fspencer@example.org,902-728-2559x3204,443.423.2680x5088,,0,5,[],company_65
+66,Reyes Inc,True,Company,Retail,257 Davis Grove Apt. 536,,Lake Jasonhaven,,27779,ES,Spain,teresaschneider@morrison.info,786.563.3629,818.483.5197x09637,https://powers-hall.info/,5,0,[],company_66
+67,Charles Williams,False,Individual,,65136 Fry Camp Suite 689,,West William,,91380,BE,Belgium,johnsonshelley@example.com,(964)943-4104x09165,,,0,0,[],company_67
+68,Patterson Group,True,Company,Finance,97358 Erica Burg Suite 221,,New Taylorborough,,95976,IT,Italy,janiceramirez@nichols.com,814.711.0588x432,(454)260-6116,,3,0,['Healthcare'],company_68
+69,Vaughn LLC,True,Company,Chemicals,4597 Patterson Plain Suite 254,Apt. 228,Henryside,,89807,IT,Italy,michele06@cook-nelson.biz,819-379-0486x9617,,http://www.dyer.com/,9,0,[],company_69
+70,Schroeder-Hampton,True,Company,Manufacturing,891 Martin View Apt. 795,,Mccallmouth,AB,16414,CA,Canada,porterchad@clark.org,3542352837,+1-666-627-9247x3997,http://howard-ross.net/,9,0,"['Strategic Account', 'Manufacturing', 'Public Sector']",company_70
+71,April Kim,False,Individual,,3074 Lewis Avenue,Suite 507,Port Sierraborough,,48894,DE,Germany,mcguiresharon@example.com,(232)862-4425,621-390-8017,,5,0,['Healthcare'],company_71
+72,"Figueroa, Willis and Sharp",True,Company,Chemicals,998 Kimberly Brook,Apt. 593,North Ryanton,,31443,UK,United Kingdom,alexishunter@johnson-lynch.com,6286643227,,,10,0,"['Strategic Account', 'Retail', 'Enterprise']",company_72
+73,Alyssa Blair,False,Individual,,16685 James Via,Suite 997,Port Ashleyside,NH,22937,US,United States,danielwest@example.com,755.820.5886x8261,+1-311-700-8635x8733,,6,0,[],company_73
+74,"Jennings, Fernandez and Sullivan",True,Company,Banking,17858 Stephanie Plains,,Lake Adamton,,87786,ES,Spain,reynoldsrachel@pratt.info,(559)700-2508,001-635-814-9358x52397,http://cross.net/,6,2,['Manufacturing'],company_74
+75,Grimes-Gibson,True,Company,Banking,41171 Jennifer Mills,,Lake Nicole,,16355,NL,Netherlands,jenniferroberson@baird-freeman.org,459-367-1588x7971,,http://mccall.com/,3,0,['Education'],company_75
+76,"Morrison, Phillips and Swanson",True,Company,Retail,975 Timothy Ports Suite 826,Suite 878,Perezville,,13806,IT,Italy,tyler30@austin.com,413-902-4301x229,,https://www.schultz-black.com/,3,2,"['Healthcare', 'SMB', 'Manufacturing']",company_76
+77,Lam-Gordon,True,Company,Recreation,333 Louis Lane,,Lake Scott,,58984,BE,Belgium,younggeorge@hopkins-wilson.com,375-510-2561x5192,(615)877-4399x770,https://ray.com/,4,0,[],company_77
+78,James Sparks,False,Individual,,1375 Linda Knolls,,Port Pamela,,32206,ES,Spain,jpittman@example.org,872.819.7894x558,211-630-1996x7512,,4,0,"['SMB', 'Strategic Account', 'Enterprise']",company_78
+79,Angela Jones,False,Individual,,8300 Hernandez Forest Suite 791,,Kevinmouth,,68764,DE,Germany,thomas96@example.com,(759)981-6108x0289,2904011341,,1,0,"['SMB', 'Retail']",company_79
+80,Pratt-Johnson,True,Company,Healthcare,3386 Matthew Village Apt. 344,,West Laura,,80674,BE,Belgium,anthony24@bowen-butler.com,214-238-1745x877,001-347-961-8175x84528,http://www.butler-elliott.com/,5,0,[],company_80
+81,Amanda Robinson DDS,False,Individual,,2997 Pedro Trail,Suite 659,Christineside,,49299,UK,United Kingdom,tmcdonald@example.com,(616)837-4258x6908,+1-590-785-3349x5753,,2,0,['High Priority'],company_81
+82,"Salazar, Martinez and Mercado",True,Company,Chemicals,08853 Kimberly Coves Apt. 830,,Bakershire,MT,20190,US,United States,gabriel37@davis.org,(458)537-8774x014,274.651.3143x0262,http://little.com/,7,4,[],company_82
+83,Farrell-Chandler,True,Company,Energy,57391 Reginald Stravenue Suite 955,Suite 020,Port Scott,,91477,IT,Italy,heatherwilliams@hughes.com,(632)249-1598x45199,,http://hayes.com/,9,0,"['Education', 'Manufacturing']",company_83
+84,Gray-Rodriguez,True,Company,Entertainment,60291 Joshua Road,Suite 110,New Gregoryland,,01242,BE,Belgium,gary28@greene.net,(959)749-5636x5746,500-256-6123x43109,http://carter-taylor.biz/,5,0,['High Priority'],company_84
+85,Marissa Preston,False,Individual,,835 Browning Brook,,Cruzland,,73479,IT,Italy,johnsontommy@example.com,323-531-1424,(898)452-6717x16520,,0,0,"['Education', 'Enterprise']",company_85
+86,Kristina Bryant DVM,False,Individual,,672 Ochoa Flat Suite 689,,New Susanport,,14337,NL,Netherlands,douglaswaters@example.org,3933162952,+1-939-545-1206,,4,0,[],company_86
+87,Cooper Ltd,True,Company,Utilities,2820 Gay Passage Suite 165,Suite 233,North Laura,,94007,BE,Belgium,stoutwilliam@quinn.com,852-783-6093x356,402.593.7784x0045,http://ellis.org/,10,0,"['Hot Lead', 'Existing Customer']",company_87
+88,Christopher Wheeler,False,Individual,,0612 Howard Falls Suite 142,Suite 213,Hudsonland,,99468,BE,Belgium,michael26@example.com,001-563-347-1590x0644,,,7,0,['High Priority'],company_88
+89,Jim Young,False,Individual,,456 Kevin Rue Suite 725,,Lake Johnberg,,82217,UK,United Kingdom,tsavage@example.net,874-543-9806x5963,001-263-268-8047x4846,,9,0,[],company_89
+90,Christopher Wall,False,Individual,,809 Porter Gateway Apt. 484,,Cynthiaburgh,,74391,DE,Germany,danny20@example.com,796.767.0450,,,7,0,[],company_90
+91,Brandon Guzman,False,Individual,,8918 Bentley Field Suite 838,,Mezastad,,72602,NL,Netherlands,dpugh@example.com,2137106161,,,8,0,[],company_91
+92,Keith Ramirez,False,Individual,,911 James Squares Apt. 982,,Port Christopher,,80577,FR,France,roblessteve@example.com,(720)862-4373x4511,3756673170,,2,0,"['Manufacturing', 'Education', 'Healthcare']",company_92
+93,Carmen Ramirez,False,Individual,,88287 Hansen Inlet,,North Matthew,TX,26141,US,United States,barbara16@example.org,2192246963,,,5,0,"['Public Sector', 'Healthcare']",company_93
+94,Cruz and Sons,True,Company,Shipping,2511 Robin Forest,,Pamelafort,,69411,DE,Germany,mswanson@khan.com,677.664.4619x371,716-572-9424x0317,http://www.park.com/,6,0,[],company_94
+95,"Snow, Howard and Jones",True,Company,Transportation,01787 Ronald Via Suite 346,Apt. 934,Port Christina,SK,67972,CA,Canada,wburgess@white.info,644.530.1648,400.447.4160x154,http://arias-hart.org/,1,0,"['Enterprise', 'Hot Lead', 'Healthcare']",company_95
+96,Noah Cortez,False,Individual,,0350 Jeremiah Fall Apt. 735,,Gatesville,,60419,IT,Italy,jobrien@example.net,818-617-9724x0580,+1-551-349-0771x25906,,5,0,"['Healthcare', 'Public Sector']",company_96
+97,Olivia Delgado,False,Individual,,91268 Emily Spur,,South Carrie,NT,80238,AU,Australia,dmiller@example.com,6484392258,+1-819-956-8744x659,,7,0,"['Existing Customer', 'Hot Lead', 'SMB']",company_97
+98,Karen Contreras,False,Individual,,2915 Angela Village Apt. 777,,Port Joseph,,56052,IT,Italy,delgadoricky@example.com,3772666191,413.202.5548x182,,7,0,[],company_98
+99,Jacobs-Howard,True,Company,Food & Beverage,827 Cook Village,,East Maria,,21071,BE,Belgium,edwardsblake@holmes.com,(393)256-5732x933,487.486.1793,http://black-parker.com/,9,0,['Hot Lead'],company_99
+100,"Walton, Mendoza and Floyd",True,Company,Food & Beverage,7531 Leslie Light Suite 078,,South Michelle,,36721,IT,Italy,kwalters@humphrey.com,306-234-6752x3731,(426)507-3781x609,,5,0,[],company_100
+101,"Love, Brady and Adams",True,Company,Entertainment,601 Reed Green Suite 454,Suite 262,New Terrence,,98946,FR,France,stephensandrew@garcia.org,+1-779-819-2734x92433,854-999-6975x2956,,8,2,"['High Priority', 'Enterprise']",company_101
+102,Julian Taylor,False,Individual,,30254 Ashley Well Apt. 968,,South Iantown,,53176,BE,Belgium,msanchez@example.net,321-572-0966x68611,,,3,3,['SMB'],company_102
+103,Hunter-Scott,True,Company,Education,0640 Hoffman Corner,,South Molly,,59049,NL,Netherlands,sharon81@taylor-anderson.com,001-950-364-4636x81225,,https://www.thomas.org/,10,0,['Hot Lead'],company_103
+104,Carlos West,False,Individual,,1818 Edwards Lock Apt. 159,,Port Kelliebury,,33204,DE,Germany,wrightjohnathan@example.net,517-851-5666,528.574.9968,,1,4,"['Retail', 'Enterprise', 'Healthcare']",company_104
+105,Patrick Washington,False,Individual,,108 Sims Centers,,Port Michaelchester,,57554,UK,United Kingdom,lauranorman@example.com,+1-653-782-2582x0915,001-905-597-1215x14732,,0,0,[],company_105
+106,Walker-Fisher,True,Company,Agriculture,0791 Turner Meadows,,South Wesley,,36756,FR,France,piercegabrielle@wilson.com,460-916-5630x1171,831.237.1684x48345,http://www.jones-kent.com/,4,0,[],company_106
+107,Jeffery Kelley,False,Individual,,7254 Shannon Curve,,South Mary,,36053,NL,Netherlands,ambermunoz@example.com,813-329-4416x96580,273-381-1981x91157,,3,0,['Hot Lead'],company_107
+108,Timothy Walker,False,Individual,,440 English Expressway,,Fostershire,,04755,DE,Germany,martindaniel@example.com,6078791462,,,2,0,"['Manufacturing', 'Retail']",company_108
+109,Rogers-Jones,True,Company,Energy,50930 Barr Pike Apt. 681,,Bakermouth,,07813,BE,Belgium,gbrown@bird-chapman.com,298-587-4271,410-285-6987,http://cain.info/,2,0,"['Education', 'Healthcare']",company_109
+110,Seth Miller,False,Individual,,95018 Lindsay Crossroad Suite 879,Apt. 059,East Jameshaven,OK,54716,US,United States,jasminecunningham@example.org,+1-785-932-3125x9502,001-605-470-4877x5302,,1,5,"['Retail', 'Manufacturing']",company_110
+111,Stephanie Harris,False,Individual,,4157 Patricia Crossing Apt. 449,,North Michaelport,,15713,DE,Germany,brittany11@example.org,468-806-6452x6247,,,2,0,[],company_111
+112,"Johnson, Graves and Kelly",True,Company,Transportation,476 Floyd Manors Apt. 660,Apt. 975,Hannahborough,QLD,42942,AU,Australia,xdiaz@compton.com,(418)355-6558x076,347-341-3711,http://www.mcmillan.biz/,5,0,[],company_112
+113,Kerry Lamb,False,Individual,,9146 Joseph Cape,,North Jerome,,46596,DE,Germany,warrentim@example.net,554-833-4044,,,5,5,[],company_113
+114,Caldwell Group,True,Company,Electronics,5783 Megan Expressway Apt. 574,Apt. 212,North Allisonland,NSW,26847,AU,Australia,rbush@williams.biz,716.763.1432x6602,(401)589-7079x8435,http://www.ramos-clark.com/,8,0,[],company_114
+115,Lindsay Webb,False,Individual,,6410 Stephanie Heights,,Port Matthew,,78872,IT,Italy,james47@example.net,379-651-7704x7071,703-419-4419x8716,,2,0,[],company_115
+116,Carter-Smith,True,Company,Engineering,671 Ortiz Dam Suite 750,Suite 459,Sawyerstad,,54628,NL,Netherlands,bryan@martinez-brown.org,937.829.0046x9454,(341)596-4840x93116,https://hall-johnson.com/,0,0,[],company_116
+117,Whitney Irwin,False,Individual,,9844 Megan Inlet,Suite 881,Kimberlyberg,CA,80103,US,United States,daniel14@example.com,735.704.9560,,,10,0,"['Healthcare', 'Hot Lead', 'SMB']",company_117
+118,Carol Bonilla,False,Individual,,23555 Michael Crescent,,Lake Ashleyburgh,,23957,NL,Netherlands,jeremy24@example.com,(957)869-2878x0529,4048022628,,7,0,[],company_118
+119,Avila-Moreno,True,Company,Banking,150 Renee Lock Apt. 070,,North Melanie,AB,27558,CA,Canada,amandarice@harmon-calderon.biz,529.631.0365x160,697-656-2227x43622,http://nelson.com/,8,1,[],company_119
+120,Miss Molly Baker,False,Individual,,732 Martinez Road Suite 005,,Stanleybury,,94105,BE,Belgium,jessica76@example.org,(543)657-8690,524.677.3594x493,,4,0,[],company_120
+121,Kimberly Gonzalez,False,Individual,,680 Mcgrath Neck,,North Nicholashaven,,33433,UK,United Kingdom,washingtonnatalie@example.net,846.350.8492,,,2,0,['Enterprise'],company_121
+122,Richard Rose,False,Individual,,23252 Vicki Mountains,,East Mollymouth,,80282,FR,France,peter67@example.net,+1-811-280-3213x88842,,,4,0,[],company_122
+123,Willis-Hernandez,True,Company,Chemicals,388 Kaitlyn Lakes Apt. 277,,South Kevin,ON,88112,CA,Canada,goodwinlevi@ramsey.com,+1-521-754-6605,878-487-2385x742,http://www.sims.org/,3,0,"['Existing Customer', 'Public Sector', 'Manufacturing']",company_123
+124,"Combs, Simmons and Henderson",True,Company,Not For Profit,4870 Juan Way,,West Devin,,99455,FR,France,andersondaniel@lee.com,+1-586-268-2853x728,635.773.8528x81638,,4,3,"['Healthcare', 'Enterprise']",company_124
+125,Lisa Marshall,False,Individual,,926 Flynn Via Suite 515,,New Bryan,QLD,59870,AU,Australia,rossjorge@example.com,870-220-1243x21426,361.951.9913x8622,,3,0,[],company_125
+126,Austin Ramos,False,Individual,,3864 Jonathan Lane Suite 554,Suite 694,Petersfort,NB,75305,CA,Canada,jamie87@example.com,604.861.3941,,,4,0,[],company_126
+127,Alvarado-Simmons,True,Company,Government,0013 Anderson Mission,,Ricardoland,,02917,DE,Germany,whitetasha@crawford.com,001-275-469-8231x8483,+1-251-625-7396x3393,http://medina-bentley.com/,5,0,[],company_127
+128,Michele Wallace,False,Individual,,39799 Gonzales Forks Apt. 315,,Quinnside,VIC,99810,AU,Australia,wilsonkelly@example.com,001-525-229-8430,,,8,0,[],company_128
+129,"Gonzales, Bentley and Montes",True,Company,Government,5586 Veronica Dale Apt. 471,Suite 818,Jonathanbury,MA,58526,US,United States,nicholasmullins@shaw-wheeler.com,857-956-4570,,https://www.mann-moore.biz/,2,0,[],company_129
+130,Bates Ltd,True,Company,Hospitality,39462 Wilcox Ridges,,Susanton,,44143,UK,United Kingdom,cynthia58@dyer.com,765-994-0963x06942,+1-453-983-3531x622,http://www.johnson-osborne.net/,2,0,"['Hot Lead', 'Retail']",company_130
+131,Tapia-Glover,True,Company,Communications,0383 Johnson Union,Apt. 361,West Rebekah,,43057,UK,United Kingdom,patricia76@gonzalez.biz,001-649-443-7794x805,001-527-687-1148x0383,http://www.west.info/,0,3,[],company_131
+132,Hobbs-Ortiz,True,Company,Shipping,64607 Daniel Glens,Suite 757,Lake Shelbybury,,14639,IT,Italy,thomas12@wheeler.com,(552)606-6759x2856,400.329.1930x993,http://www.parsons.biz/,8,0,[],company_132
+133,Kristen Clark,False,Individual,,9677 Charles Knoll Apt. 937,Apt. 620,Thompsonfurt,SD,62010,US,United States,danielsvictoria@example.com,2614687448,(727)626-2016x329,,2,0,[],company_133
+134,"Chen, Rodriguez and Juarez",True,Company,Banking,9311 Jackson Bridge Apt. 876,,Perkinsshire,,64027,FR,France,aaron62@stanton.net,267.872.3700,8495844682,,4,0,"['SMB', 'Strategic Account']",company_134
+135,Chase Franco,False,Individual,,0721 Davis Roads,Suite 194,Patrickchester,,74004,UK,United Kingdom,cvincent@example.net,+1-863-839-9126x72924,+1-837-925-7336x4908,,5,0,"['SMB', 'High Priority', 'Education']",company_135
+136,Thomas Bailey,False,Individual,,60686 Alexis Curve Suite 050,,Denisefurt,BC,39487,CA,Canada,laurenhenson@example.org,3822834527,707-964-0690x37978,,5,0,"['High Priority', 'Enterprise']",company_136
+137,Erik Beck,False,Individual,,9327 Katherine Place,Apt. 514,Heatherfort,NB,22414,CA,Canada,robertpatel@example.org,(321)510-6622x393,+1-262-636-7669x4512,,7,0,[],company_137
+138,Brown-Gonzales,True,Company,Transportation,315 Powell Ridge,,West Katrinaview,,85023,ES,Spain,wpatterson@murphy.info,+1-446-972-7563x40868,(240)629-5638x73414,,3,0,"['Hot Lead', 'SMB']",company_138
+139,"Watts, Garcia and Sherman",True,Company,Construction,004 Marcia Inlet Apt. 349,,Coxfort,,02246,IT,Italy,lindseydavila@wade-ball.com,(365)369-3799x73039,,https://www.hansen-braun.info/,4,0,"['Retail', 'Enterprise', 'Existing Customer']",company_139
+140,Lane-Dickson,True,Company,Chemicals,4966 John Groves Suite 174,,East Christopher,MB,26985,CA,Canada,hamptonryan@walker-blake.info,+1-893-331-4354,240.926.8586x89448,http://alexander-kelley.biz/,7,2,"['SMB', 'Public Sector']",company_140
+141,Johnson-Garcia,True,Company,Recreation,979 Jeffrey Radial,,Myerstown,,44729,IT,Italy,wreed@monroe-neal.com,001-345-540-3194x1007,,,3,0,['Manufacturing'],company_141
+142,"Hammond, Cole and Larson",True,Company,Media,91903 Guerrero Forest,Apt. 599,Parkberg,,19490,IT,Italy,flowerscourtney@stone.com,803-303-1849,,http://miller.biz/,5,0,[],company_142
+143,Cooper and Sons,True,Company,Entertainment,28878 Moore Plains Apt. 266,,North Shannonstad,,04129,BE,Belgium,schroederdanielle@moore.biz,+1-284-924-1876x1257,001-261-853-1928x8706,http://www.barr.biz/,8,0,"['Retail', 'High Priority']",company_143
+144,"Wilson, Chavez and Harris",True,Company,Machinery,8011 Rose Keys,Apt. 791,North Anthonyville,,02663,BE,Belgium,jscott@williams-mason.net,(402)999-1356x383,5713804795,http://www.robinson.com/,6,5,"['Strategic Account', 'SMB', 'Enterprise']",company_144
+145,"Avila, Hale and Smith",True,Company,Telecommunications,447 Turner Circles Suite 905,,Juarezbury,,70867,IT,Italy,patricia42@brown.net,984-650-9731,(552)831-1991x84418,http://parker.com/,2,0,[],company_145
+146,Elizabeth Osborn,False,Individual,,42668 Taylor Road Apt. 952,Suite 348,Timothyview,,16519,NL,Netherlands,jennifer36@example.org,+1-610-360-6239x733,(211)778-7734,,3,0,[],company_146
+147,Benjamin Jennings Jr.,False,Individual,,50023 Ayala Curve Apt. 384,Suite 815,South Samuelfort,,33854,DE,Germany,mariah87@example.com,501-957-5622x44403,,,10,0,[],company_147
+148,Briggs Group,True,Company,Energy,0714 Shawn Overpass,,Lake Dawnview,,97949,UK,United Kingdom,kimberly09@wolf.com,283.261.2052,(836)608-6299,http://patel.biz/,6,0,['Enterprise'],company_148
+149,"Williams, Weber and Rowland",True,Company,Construction,56344 Boyle Parkway,,Mackfort,BC,11875,CA,Canada,tstewart@barnes-barnett.biz,226-466-9497,,,4,0,"['Existing Customer', 'High Priority']",company_149
+150,Pamela Potts,False,Individual,,640 Elizabeth Mall,,South Lorrainechester,,02081,DE,Germany,lisajohnson@example.net,672.729.5860x606,283-359-6303x19336,,0,0,"['Enterprise', 'High Priority', 'Healthcare']",company_150
+151,"Kane, Grant and Bryant",True,Company,Insurance,478 Robert Springs Suite 383,,Lake Luisview,MB,65655,CA,Canada,johnnythompson@carlson-daniel.com,001-677-824-0271x19779,,http://hancock.com/,8,0,"['Manufacturing', 'Existing Customer']",company_151
+152,Ford-Lewis,True,Company,Apparel,886 Vazquez Pines Suite 885,,Jeanettefort,PE,18327,CA,Canada,isilva@bowman.com,515-696-4261,692-264-0851x1305,https://brooks-curtis.com/,5,0,['Public Sector'],company_152
+153,Grant Turner,False,Individual,,752 Hall Keys,,New William,,63127,NL,Netherlands,turnerwayne@example.com,(405)787-3290,,,3,0,"['Hot Lead', 'Healthcare']",company_153
+154,Felicia Lyons,False,Individual,,155 Sandra Corner Apt. 053,,Markfurt,,63665,DE,Germany,austinmartin@example.org,(860)376-7538x15495,,,9,3,[],company_154
+155,Zachary Fischer,False,Individual,,23091 Daniel Tunnel,Suite 447,Christianborough,,54161,DE,Germany,raymond72@example.net,433-454-5114x873,280-734-1641x191,,1,0,[],company_155
+156,Susan Byrd,False,Individual,,936 Salazar Square,,Hannahmouth,,18531,DE,Germany,grahamjulia@example.org,001-962-436-0685,636.495.9458,,2,0,[],company_156
+157,Dustin Martin,False,Individual,,564 Ballard Squares Apt. 811,,Nguyenville,ID,08372,US,United States,veronica88@example.com,695.705.6662,604.865.3390,,9,0,[],company_157
+158,Daniel Santos,False,Individual,,884 Cook Creek,Suite 262,Warrenton,AB,54319,CA,Canada,ybradley@example.com,962-379-4188,477.341.5538x287,,5,0,['Strategic Account'],company_158
+159,Sexton-Phillips,True,Company,Hospitality,245 Salazar Bypass Apt. 985,Apt. 380,North Jamesmouth,VIC,95855,AU,Australia,lsimmons@peterson.org,001-542-631-4462x69959,001-253-352-0584x58573,https://www.chang-johnson.biz/,5,0,[],company_159
+160,Hall-Young,True,Company,Chemicals,9017 Samantha Parkway,Apt. 051,North Bobby,,99502,FR,France,christopher03@jones.org,+1-892-725-3210x679,8656488824,http://www.ferguson.com/,0,5,[],company_160
+161,King-Cox,True,Company,Construction,2594 Dunlap Manor,,Taylormouth,,18799,DE,Germany,xknox@johnson.com,753-635-0894,001-538-379-1684x559,https://simpson.info/,0,5,[],company_161
+162,Hubbard Ltd,True,Company,Telecommunications,714 Jeff Harbors Apt. 978,Apt. 709,New Brianhaven,NE,05421,US,United States,cindylopez@gates-anderson.org,250-515-1523x65381,926.408.8483,,3,0,"['Education', 'Healthcare']",company_162
+163,Jacqueline Nguyen,False,Individual,,480 Ashley Bridge Suite 833,Suite 820,Port Michael,,16085,ES,Spain,harrismichael@example.org,979-332-1392,,,1,0,"['Enterprise', 'SMB']",company_163
+164,"Mendoza, Russell and Hernandez",True,Company,Utilities,386 Ramirez Springs Suite 775,Apt. 703,Sweeneyberg,,40677,NL,Netherlands,gking@johnson-edwards.org,(498)860-4437,(994)505-8359x000,,9,0,[],company_164
+165,"Mueller, Richardson and Chambers",True,Company,Telecommunications,187 William Valleys,,North Nicholefort,,95713,ES,Spain,hsnyder@mayo.info,966.928.1987x10886,(780)345-6116,https://www.yates.com/,1,0,"['SMB', 'Public Sector', 'Retail']",company_165
+166,Bonnie Williams,False,Individual,,03899 John Islands,,New Kathleentown,NSW,60256,AU,Australia,skirk@example.org,+1-684-918-6860x826,(416)375-1854,,0,0,[],company_166
+167,Sara Brown,False,Individual,,370 Holden Drive,,East Samuelshire,,87602,DE,Germany,bryangrant@example.com,478.229.0786,7655347499,,10,0,[],company_167
+168,"Salazar, Carr and Aguilar",True,Company,Media,50817 Sanchez Hill Suite 338,Suite 546,Robertmouth,,42074,BE,Belgium,rodriguezblake@herman.com,001-259-526-6503,(812)938-2603x33090,https://nielsen-guerra.com/,3,0,[],company_168
+169,Alex Lang,False,Individual,,09701 Karina Pine,,Timothyshire,,80254,BE,Belgium,tmorgan@example.net,465.469.7614x584,,,0,0,[],company_169
+170,Elizabeth Russell,False,Individual,,071 Villarreal Common Apt. 726,,Rodriguezhaven,,51238,ES,Spain,harrisregina@example.org,2028188806,772-617-7566,,10,0,['Education'],company_170
+171,"Hall, Martinez and Campbell",True,Company,Chemicals,77204 Robertson Light,,South Russell,,29390,DE,Germany,fosterkevin@sawyer.com,(838)258-5501x1446,,,4,4,[],company_171
+172,Jones-Johnson,True,Company,Government,025 Burch Unions,,Thomasmouth,NS,84011,CA,Canada,colleensmith@morales-smith.net,+1-511-615-1369x07097,813.571.2694x5349,http://www.jackson.com/,2,0,[],company_172
+173,Shelby Fuller,False,Individual,,65120 Walker Manors Suite 541,,South Roger,PE,90766,CA,Canada,taylor29@example.com,(300)331-1396x343,,,4,0,"['Strategic Account', 'Education', 'Enterprise']",company_173
+174,Gary White,False,Individual,,44589 David Streets,,West Heatherland,TX,54111,US,United States,qmeyer@example.net,001-217-272-0869,,,0,1,[],company_174
+175,Barbara Johnson,False,Individual,,482 Johnson Row Suite 668,Apt. 441,Evelynport,,18717,NL,Netherlands,ythomas@example.org,(528)257-0285x2240,,,3,0,[],company_175
+176,"Martin, Cervantes and Flowers",True,Company,Healthcare,4728 Jonathan Way,,Michaelstad,,49443,BE,Belgium,kevinpatton@harper.biz,+1-620-811-0817x935,+1-595-682-1966x33890,https://www.walter-mclean.com/,0,3,"['Education', 'Strategic Account', 'Hot Lead']",company_176
+177,William White,False,Individual,,692 Robert Ranch Apt. 442,Apt. 616,Laurenfurt,NL,01523,CA,Canada,johnsonkenneth@example.net,3717892043,+1-878-309-5570x2824,,10,0,"['Enterprise', 'Healthcare']",company_177
+178,Dennis-Hamilton,True,Company,Healthcare,53770 Lewis Trafficway Apt. 973,,Geraldborough,BC,32290,CA,Canada,ycollier@watson.com,435.360.4088x89994,001-496-704-0428,https://www.kent.com/,0,0,[],company_178
+179,Steven Morales,False,Individual,,8902 Gray Wells Suite 439,,Stoneborough,SA,04301,AU,Australia,cgeorge@example.com,001-265-536-7768x4045,,,1,4,[],company_179
+180,James Ruiz,False,Individual,,153 Mcdonald Lodge Suite 622,,Ashleyport,,43831,FR,France,youngbryan@example.net,415-989-5568x5452,,,6,4,[],company_180
+181,Victoria Smith,False,Individual,,736 Justin Creek,Apt. 251,Zacharyburgh,,77631,ES,Spain,bmaddox@example.net,204-663-7501x9284,,,7,0,[],company_181
+182,Michele Hill,False,Individual,,74143 Jill Green Suite 105,,West Stuart,,20725,BE,Belgium,dgonzalez@example.org,5264438811,681-525-1824,,3,0,[],company_182
+183,Danielle Rodriguez,False,Individual,,0627 Davis Vista,,North Chris,,96847,IT,Italy,robinsonlinda@example.net,+1-759-631-8774x544,001-490-967-6558x71090,,1,3,[],company_183
+184,"Bishop, Harris and Dalton",True,Company,Agriculture,5793 Dalton Islands,,Jasonhaven,ON,71591,CA,Canada,popemark@savage-bell.org,712.975.6845x72151,,http://www.cooper.com/,2,0,"['High Priority', 'Education']",company_184
+185,Martin-Klein,True,Company,Not For Profit,51686 Patrick Skyway Suite 966,,Port Mary,,05599,DE,Germany,jacksonjason@barrett.com,424.275.0188,354-956-3340x67076,https://davis.net/,10,0,[],company_185
+186,"Espinoza, Todd and Keller",True,Company,Chemicals,786 Taylor Haven,,West Jason,,45497,NL,Netherlands,zkoch@jones-hart.org,7923549478,,,10,0,[],company_186
+187,Williams-Larsen,True,Company,Recreation,32420 Joseph Shoals Apt. 959,,East Allison,,06727,BE,Belgium,whitealyssa@hawkins.biz,2016021393,208.844.2182,http://www.collins-cox.com/,0,0,"['Education', 'Retail', 'Enterprise']",company_187
+188,Stevenson Ltd,True,Company,Telecommunications,2744 Katherine Square Suite 891,,Lake Kyle,,43358,BE,Belgium,andre20@maxwell-gonzales.biz,001-429-595-2228x4999,9736682343,https://ortiz-riley.com/,0,2,"['Healthcare', 'Strategic Account', 'High Priority']",company_188
+189,"Powell, Johnson and Richards",True,Company,Construction,5792 Adriana Rest,,Coxmouth,,12230,ES,Spain,sknight@ritter.com,378.479.4175,001-887-631-8040,,8,0,"['Healthcare', 'Public Sector', 'SMB']",company_189
+190,Samantha Lara,False,Individual,,29669 Cooley Bypass,,Natalieton,,38426,FR,France,jenniferking@example.com,001-279-612-6471,(239)762-7257x86383,,9,2,"['Existing Customer', 'Strategic Account', 'Public Sector']",company_190
+191,Moreno-Williams,True,Company,Hospitality,09121 Acevedo Corners Suite 999,,Morenoton,,54639,ES,Spain,allenmatthew@shannon.info,001-372-375-6250x753,,,9,0,[],company_191
+192,Garza-Holmes,True,Company,Engineering,68843 Dennis Views,,North Mikechester,,98248,FR,France,owilliamson@rivera-oliver.com,001-600-892-6717x634,726-919-7558x72861,http://www.montgomery.info/,3,5,[],company_192
+193,Bates-Daniels,True,Company,Manufacturing,78064 Darrell Lake,,New Carolview,BC,77878,CA,Canada,shannon75@bell.net,+1-982-566-7950,221.973.3423x658,http://moore.com/,4,2,['Hot Lead'],company_193
+194,"Allison, Wallace and Cunningham",True,Company,Transportation,186 Howard Tunnel Apt. 231,,Nortonberg,,81118,UK,United Kingdom,zparrish@stevenson.org,215-469-0204,,,2,0,"['Manufacturing', 'Enterprise']",company_194
+195,"Mcgrath, Thompson and Hancock",True,Company,Energy,992 Kevin Forks Suite 267,,Lisaburgh,,61302,DE,Germany,james09@kennedy.biz,700-722-0150x924,839.713.3653,https://johnson.com/,9,0,"['Education', 'Existing Customer', 'Manufacturing']",company_195
+196,"Cole, Murphy and Rice",True,Company,Technology,4771 Fitzpatrick Views Suite 653,,Dodsonfurt,,59884,IT,Italy,curtisstephanie@fritz.com,(759)519-8581x4298,(341)634-2678,https://burke.biz/,3,0,[],company_196
+197,"Gutierrez, Miller and Mitchell",True,Company,Entertainment,8095 Tami Dale Suite 744,,South Mary,,07924,DE,Germany,brittany55@lee-austin.com,257.822.8611,433-573-1233,http://www.williams.biz/,6,5,['Public Sector'],company_197
+198,Roy White,False,Individual,,82501 Callahan Drive,Apt. 219,Bondberg,,38955,IT,Italy,douglas99@example.net,+1-407-661-4108x24362,4502182225,,8,0,[],company_198
+199,Smith LLC,True,Company,Media,0360 Jensen Estate,Apt. 876,Alexanderburgh,,70813,IT,Italy,davidneal@gonzales.com,6024091593,443-529-9510,http://www.schwartz.com/,8,0,[],company_199
+200,Phillip Salazar,False,Individual,,04594 Brown Expressway,,Lisamouth,,66294,NL,Netherlands,curtis94@example.org,+1-241-616-0716x31447,367-930-2869x41795,,2,5,['Retail'],company_200
