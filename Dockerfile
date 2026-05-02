@@ -12,4 +12,4 @@ USER odoo
 
 EXPOSE 8069
 
-CMD ["odoo", "--config=/etc/odoo/odoo.conf", "--database=odoodb_b6y6"]
+CMD ["odoo", "--config=/etc/odoo/odoo.conf", "--database=odoodb_b6y6", "--update=web"]
