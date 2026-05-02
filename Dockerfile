@@ -11,4 +11,4 @@ USER odoo
 
 EXPOSE 8069
 
-CMD ["odoo", "--config=/etc/odoo/odoo.conf"]
+CMD ["odoo", "--config=/etc/odoo/odoo.conf", "--dev=reload"]
