@@ -2,13 +2,14 @@ FROM odoo:16.0
 
 USER root
 
-RUN echo "v5"
+RUN echo "v6"
 
 COPY odoo.conf /etc/odoo/odoo.conf
 COPY addons /mnt/extra-addons
+COPY start.py /start.py
 
 USER odoo
 
 EXPOSE 8069
 
-CMD ["odoo", "--config=/etc/odoo/odoo.conf"]
+CMD ["python3", "/start.py"]
