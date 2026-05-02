@@ -2,6 +2,9 @@ FROM odoo:16.0
 
 USER root
 
+# cache bust
+RUN echo "v2"
+
 COPY odoo.conf /etc/odoo/odoo.conf
 COPY addons /mnt/extra-addons
 
