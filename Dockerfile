@@ -12,4 +12,4 @@ USER odoo
 
 EXPOSE 8069
 
-CMD ["python3", "/start.py"]
+CMD ["odoo", "--config=/etc/odoo/odoo.conf", "--database=odoodb_b6y6", "--no-http=False"]
