@@ -9,4 +9,4 @@ USER odoo
 
 EXPOSE 8069
 
-CMD ["odoo", "--config=/etc/odoo/odoo.conf", "--init=base", "--without-demo=all"]
+CMD ["sh", "-c", "odoo --config=/etc/odoo/odoo.conf --init=base --without-demo=all --stop-after-init && odoo --config=/etc/odoo/odoo.conf"]
